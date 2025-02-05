@@ -25,5 +25,25 @@
         <p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0859629199426!2d-76.13342122328478!3d43.039622791898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3754c82b97b%3A0xa1a5eec56ddb8a56!2sWatson%20hall%2C%20405%20University%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1738173824675!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </p>
+        <hr>
+        <form action="https://formspree.io/f/mldgnqnv" method="post">
+            <label for="fname">First name: </label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname"> Last name: </label><br>
+            <input type="text" id="lname" name="lname">
+        <br>
+            <p>Please select your preferred contact method:</p>
+            <input type="radio" id="contact1" name="contact_method" value="email">
+            <label for="contact1">Email</label>
+            <input type="radio" id="contact2" name="contact_method" value="linkedin">
+            <label for="contact2">LinkedIn</label>
+            <input type="radio" id="contact3" name="contact_method" value="text">
+            <label for="contact3">Text Message</label>
+        <br>
+            <label for="comments">Leave your contact information here:</label>
+            <textarea id="comments" name="comments"></textarea>
+        <br>
+            <input type="submit" value="Send Form">
+        </form>
     </body>
 </html>
