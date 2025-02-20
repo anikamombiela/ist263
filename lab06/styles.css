@@ -1,1 +1,5 @@
-
+body {font-family: Georgia, serif;}
+h1, h2 {color: RosyBrown}
+.evenrow {color:LavenderBlush}
+h1 {font-size: 3 em}
+h2 {font-size: 2 em}
