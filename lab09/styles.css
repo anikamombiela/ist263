@@ -5,10 +5,10 @@ h1 {font-size: 3 em}
 h2 {font-size: 2 em}
 body {background-color:#fceee9}
 text {color:#000000}
-link {color:#a3b899}
-h1, h2 {color:#667b68}
+link {color:RosyBrown}
+h1, h2 {color:RosyBrown}
 nav {background-color: #f8d3c5}
-nav a {color: #a3b899}
+nav a {color: RosyBrown}
 nav a:hover {background-color: #dde6d5;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px}
