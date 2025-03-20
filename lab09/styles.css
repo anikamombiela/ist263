@@ -15,7 +15,7 @@ nav {padding: 10px;}
 nav {margin-bottom: 30px}
 header {text-align: center;}
 
-.flexbox-2 {display: flex; justify-content: space-between; gap: 30px;}
+.flexbox-2 {display: flex; justify-content: space-between;}
 .skill-row {display: flex; justify-content: flex-start}
 .skill-col {text-align: left; align-items: flex-start;}
 .skill-col i {display: block; width: 60px; margin: 0 auto 10px; font-size: 3em;}
