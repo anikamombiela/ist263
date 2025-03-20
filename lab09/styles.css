@@ -14,5 +14,5 @@ nav {padding: 10px;}
 nav {margin-bottom: 30px}
 header {text-align: center;}
 .skill-row {display: flex; justify-content: space-between}
-.skill-col{text-align: center;}
+.skill-col{text-align: right;}
 .skill-col i{display: block; width: 60px; margin: 0 auto 10px; font-size: 3em;}
