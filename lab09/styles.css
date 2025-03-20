@@ -15,12 +15,16 @@ nav {padding: 10px;}
 nav {margin-bottom: 30px}
 header {text-align: center;}
 
+body{margin: 20px;}
+
+.intro-text {margin-bottom: 20px;}
+
 .flexbox-2 {display: flex; justify-content: space-between; gap: 30px;}
 .skill-row {display: flex; justify-content: space-between; gap: 20px; width: 100%; flex: 3;}
 .skill-col {display: flex; text-align: center; align-items: center; flex-direction: column;}
 .skill-col i {display: block; width: 60px; margin: 0 auto 10px; font-size: 3em;}
 .skill-col p {margin: 0;}
 
-aside {padding: 20px; background-color: pink; color: white; border-radius: 12px; flex: 1;}
+aside {padding: 20px; background-color: pink; color: white; border-radius: 12px; flex: 1; margin-left: 20px; margin-right: 20px;}
 aside h2 {text-align: center; font-size: 2em; color: #fff; margin-bottom: 20px;}
 aside ul li {font-size: 1em; color: #fff; margin-bottom: 10px;}
