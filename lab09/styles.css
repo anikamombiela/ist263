@@ -15,11 +15,12 @@ nav {padding: 10px;}
 nav {margin-bottom: 30px}
 header {text-align: center;}
 
-.flexbox-2 {display: flex; justify-content: space-between;}
-.skill-row {display: flex; justify-content: flex-start}
-.skill-col {text-align: left; align-items: flex-start;}
+.flexbox-2 {display: flex; justify-content: space-between; gap: 30px;}
+.skill-row {display: flex; justify-content: flex-start; gap: 20px; width: 100%; flex: 3;}
+.skill-col {display: flex; text-align: left; align-items: flex-start; flex-direction: column;}
 .skill-col i {display: block; width: 60px; margin: 0 auto 10px; font-size: 3em;}
+.skill-col p {margin: 0;}
 
-aside {background-color: pink; color: white; border-radius: 12px;}
-aside h2 {text-align: center; font-size: 2em; color: #fff;}
-aside ul li {font-size: 1.2em; color: #fff;}
+aside {padding: 20px; background-color: pink; color: white; border-radius: 12px; flex: 1;}
+aside h2 {text-align: center; font-size: 2em; color: #fff; margin-bottom: 20px;}
+aside ul li {font-size: 1em; color: #fff; margin-bottom: 10px;}
