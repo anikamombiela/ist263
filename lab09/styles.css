@@ -16,8 +16,8 @@ nav {margin-bottom: 30px}
 header {text-align: center;}
 
 .flexbox-2 {display: flex; justify-content: space-between; gap: 30px;}
-.skill-row {display: flex; justify-content: flex-start; gap: 20px; width: 100%; flex: 3;}
-.skill-col {display: flex; text-align: left; align-items: flex-start; flex-direction: column;}
+.skill-row {display: flex; justify-content: space-between; gap: 20px; width: 100%; flex: 3;}
+.skill-col {display: flex; text-align: center; align-items: center; flex-direction: column;}
 .skill-col i {display: block; width: 60px; margin: 0 auto 10px; font-size: 3em;}
 .skill-col p {margin: 0;}
 
