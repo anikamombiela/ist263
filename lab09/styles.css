@@ -25,6 +25,6 @@ body{margin: 20px;}
 .skill-col i {display: block; width: 60px; margin: 0 auto 10px; font-size: 3em;}
 .skill-col p {margin: 0;}
 
-aside {padding: 20px; background-color: pink; color: white; border-radius: 12px; flex: 1; margin-left: 20px; margin-right: 20px;}
+aside {padding: 20px; background-color: pink; color: white; border-radius: 12px; flex: 1; margin-left: 10px; margin-right: 10px;}
 aside h2 {text-align: center; font-size: 2em; color: #fff; margin-bottom: 20px;}
 aside ul li {font-size: 1em; color: #fff; margin-bottom: 10px;}
