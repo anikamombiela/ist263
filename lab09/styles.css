@@ -17,7 +17,7 @@ header {text-align: center;}
 
 body{margin: 20px;}
 
-.intro-text {margin-bottom: 20px; flex: 3;}
+.intro-text {margin-bottom: 20px;}
 
 .flexbox-2 {display: flex; justify-content: space-between; gap: 30px;}
 .skill-row {display: flex; justify-content: space-between; gap: 20px; width: 100%; flex: 3;}
