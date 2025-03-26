@@ -8,11 +8,16 @@ body {background-color:#fceee9}
 text {color:#000000}
 link {color:RosyBrown}
 h1, h2 {color:RosyBrown}
-nav {background-color: #f8d3c5}
+nav {background-color: #f8d3c5; padding: 10px; margin-bottom: 30px;}
 nav a {color: RosyBrown}
+@media only screen and (min-width: 768px) {
+    nav a {width: 100%; display: block;}
+}
+nav span {display: inline;}
+@media only screen and (max-width: 767px) {
+    nav span {display: none;}
+}
 nav a:hover {background-color: #dde6d5;}
-nav {padding: 10px;}
-nav {margin-bottom: 30px}
 header {text-align: center;}
 
 body{margin: 20px;}
