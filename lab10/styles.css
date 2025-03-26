@@ -1,37 +1,129 @@
-body {font-family: Georgia, serif;}
-h1, h2 {color: RosyBrown}
-.evenrow {background-color:RosyBrown}
-h1 {font-size: 3 em}
-h2 {font-size: 2 em}
+body {
+    font-family: Georgia, serif;
+}
 
-body {background-color:#fceee9}
-text {color:#000000}
-link {color:RosyBrown}
-h1, h2 {color:RosyBrown}
-nav {background-color: #f8d3c5; padding: 10px; margin-bottom: 30px;}
-nav a {color: RosyBrown}
+h1, h2 {
+    color: RosyBrown
+}
+
+.evenrow {
+    background-color:RosyBrown
+}
+
+h1 {
+    font-size: 3 em
+}
+
+h2 {
+    font-size: 2 em
+}
+
+body {
+    background-color:#fceee9
+}
+
+text {
+    color:#000000
+}
+
+link {
+    color:RosyBrown
+}
+
+h1, h2 {
+    color:RosyBrown
+}
+
+nav {
+    background-color: #f8d3c5; 
+    padding: 10px; 
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: RosyBrown
+}
 @media only screen and (min-width: 768px) {
 }
-nav span {display: inline;}
+nav span {
+    display: inline;
+}
 @media only screen and (max-width: 767px) {
     nav span {display: none;}
     nav a {width: 100%; display: block;}
 }
-nav a:hover {background-color: #dde6d5;}
-header {text-align: center;}
 
-body{margin: 20px;}
+nav a:hover {
+    background-color: #dde6d5;
+}
 
-.intro-text {margin-bottom: 20px;}
+header {
+    text-align: center;
+}
 
-.flexbox-2 {display: flex; justify-content: space-between; gap: 30px;}
-.skill-row {display: flex; justify-content: space-between; gap: 20px; width: 100%; flex: 3;}
-.skill-col {display: flex; text-align: center; align-items: center; flex-direction: column;}
-.skill-col i {display: block; width: 60px; margin: 0 auto 10px; font-size: 3em;}
-.skill-col p {margin: 0;}
+body {
+    margin: 20px;
+}
 
-aside {padding: 20px; background-color: pink; color: white; border-radius: 12px; flex: 1; margin-left: 10px; margin-right: 10px;}
-aside h2 {text-align: center; font-size: 2em; color: #fff; margin-bottom: 20px;}
-aside ul li {font-size: 1em; color: #fff; margin-bottom: 10px;}
+.intro-text {
+    margin-bottom: 20px;
+}
 
-.my-image-class {max-width: 100%;}
+.flexbox-2 {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 30px;
+}
+
+.skill-row {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    width: 100%; 
+    flex: 3;
+}
+
+.skill-col {
+    display: flex; 
+    text-align: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.skill-col i {
+    display: block; 
+    width: 60px; 
+    margin: 0 auto 10px; 
+    font-size: 3em;
+}
+
+.skill-col p {
+    margin: 0;
+}
+
+aside {
+    padding: 20px; 
+    background-color: pink; 
+    color: white; 
+    border-radius: 12px; 
+    flex: 1; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+aside h2 {
+    text-align: center; 
+    font-size: 2em; 
+    color: #fff; 
+    margin-bottom: 20px;
+}
+
+aside ul li {
+    font-size: 1em; 
+    color: #fff; 
+    margin-bottom: 10px;
+}
+
+.my-image-class {
+    max-width: 100%;
+}
