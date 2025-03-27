@@ -38,7 +38,7 @@ nav {
     background-color: #f8d3c5; 
     padding: 10px; 
     margin-bottom: 30px;
-    
+
 }
 
 nav a {
@@ -72,12 +72,14 @@ body {
 
 .flexbox-2 {
     display: flex; 
+    flex-wrap: wrap;
     justify-content: space-between; 
     gap: 30px;
 }
 
 .skill-row {
     display: flex; 
+    flex-wrap: flex;
     justify-content: space-between; 
     gap: 20px; 
     width: 100%; 
