@@ -3,10 +3,40 @@
     <head>
         <meta charset="utf-8">
         <title>Title here</title>
-        <script>
     </head>
+    <script>
+        function SecondBlock() {
+            alert('Second alert');
+        }
+        function ThirdBlock() {
+            alert('Third alert');
+        }
+    </script>
+    <script>
+        function clicky() {
+            alert('Hello World!');
+        }
+        function hovery() {
+            alert('Hello Hoverer!');
+        }
+        function loady() {
+            alert('Hellow Loader!');
+        }
+    </script>
     
     <body>
-        Page content goes here.
+        <script>
+            alert('I am sending an alert message');
+        </script>
+        
+        <a href="#" onclick="SecondBlock();">Click here for the second alert.</a>
+        <!-- href highlights (blue) the link so the user knows it is a link -->
+         <a href="#" onmouseover="ThirdBlock();">Click here for the third alert.</a>
+
+         <ul>
+            <li> <a href="#" onclick="clicky();">Here's the click</a></li> 
+            <li> <a href="#" onmouseover="hovery();">Here's the hover</a></li> 
+            <li> <a href="#" onload="loady();">Here's the load</a></li> 
+         </ul>
     </body>
 </html>
