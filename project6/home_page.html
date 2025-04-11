@@ -4,9 +4,32 @@
         <meta charset="utf-8">
         <title>Make It Up</title>
         <style>
+            /* nav style */
+            nav {
+                background-color: #FFB6C1;
+                padding: 10px;
+                margin-bottom: 30px;
+            }
+            nav a {
+                color: #fff;
+            }
+            nav a:hover {
+                background-color: #800020;
+            }
+            /* media queries */
+            @media only screen and (min-width: 768px) {
+                nav span {display: inline;}
+            }
+            @media only screen and (max-width: 767px) {
+                nav span {display: none;}
+                nav a {width: 100%; display: block;}
+            }
             /* text style */
             .center-text {
                 text-align: center;
+            }
+            h1, h2 {
+                color: #FFB6C1;
             }
             p {
                 font-size: 18px;
@@ -50,7 +73,7 @@
     </head>
     
     <body>
-        <nav><a href="home_page">Home</a> | <a href="quiz_page">Quiz</a> | <a href="results_page">Results</a></nav>
+        <nav><a href="home_page">Home</a> <span>|</span> <a href="quiz_page">Quiz</a> <span>|</span> <a href="results_page">Results</a></nav>
 
         <header><img class="full-width" src="../project/media/main_image_homepage.png" alt="Homepage Main Image"></header>
 
