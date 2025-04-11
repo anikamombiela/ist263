@@ -54,19 +54,6 @@
             .right-img {
                 align-self: flex-end;
             }
-            /* split containers: left and right and center them */
-            .split-container {
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-start;
-            }
-            .left-side, .right-side{
-                flex: 1;
-            }
-            .center-content {
-                margin: 0 auto;
-                padding: 2rem;
-            }
         </style>
     </head>
     
@@ -74,8 +61,7 @@
         <nav><a href="home_page">Home</a> <span>|</span> <a href="quiz_page">Quiz</a> <span>|</span> <a href="results_page">Results</a></nav>
 
         <h1 class="center-text">Your makeup routine is here!</h1>
-        <div class="split-container center-content">
-            <section class="left-side">
+            <section>
                 <div>
                     <h2>Skin Prep</h2>
                     <img class="same-size" src="../project/media/page3_skinprep.JPG" alt="Page 3 Skin Prep">
@@ -87,7 +73,7 @@
                 </div>
             </section>
 
-            <section class="right-side">
+            <section>
                 <div>
                     <h2>Primer</h2>
                     <img class="same-size" src="../project/media/page3_primer.JPG" alt="Page 3 Primer">
