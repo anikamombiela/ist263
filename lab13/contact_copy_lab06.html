@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .contact-info {
+                display: flex; 
+                justify-content: space-between; 
+                padding: 20rem; margin: 0; 
+                border-radius: 2em; 
+                background-color: #f8d3c5;
+            }
+            .contact-info .address, .contact-info, .links {
+                flex: 1;
+            }
+            .contact-info .links p {
+                margin: 10rem;
+            }
+            .form-map {
+                display: flex; 
+                justify-content: space-between; 
+                padding: 20rem; 
+                border-radius: 2em; 
+                background-color: #f8d3c5; 
+                margin-top: 50rem; 
+                flex-wrap: wrap;
+            }
+            .form {
+                flex: 1; 
+                margin-right: 20rem;
+            }
+            .map {
+                flex: 1;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <nav>
+            <a href="index.html">Home</a> <span>|</span> <a href="contact_copy_lab06">Contact</a> <span>|</span> <a href="skills_copy_lab07">Skills</a>
+        </nav>
+        <header>
+            <a href="#main" class="skip">Skip to main content</a>
+        </header>
+        <main id="main">
+            <h1>Contact</h1>
+            <section>
+                <h1>Contact Information</h1>
+                <div class="contact-info">
+                    <div class="address">
+                        <p>Name: Anika Mombiela</p>
+                        <p>Address: 405 University Pl, Syracuse NY, 13244</p>
+                    </div>
+                    <div class="links">
+                        <p><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" aria-label="Visit Anika Mombiela's LinkedIn Profile">My LinkedIn Profile</a></p>
+                        <p><a href="mailto:amombiel@syr.edu">Email Anika Mombiela</a></p>
+                        <p><img src="../images/logo-sized.png" alt="LinkedIn logo"></p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1>Contact Form and Location</h1>
+                <div class="form-map">
+                    <div class="form">
+                        <form action="https://formspree.io/f/mldgnqnv" method="post">
+                            <label for="fname">First name: </label><br>
+                            <input type="text" id="fname" name="fname" tabindex="1">
+                            <br>
+                            <label for="lname"> Last name: </label>
+                            <br>
+                            <input type="text" id="lname" name="lname" tabindex="3">
+                            <br>
+                            <p>Please select your preferred contact method:</p>
+                            <input type="radio" id="contact1" name="contact_method" value="email" tabindex="2">
+                            <label for="contact1">Email</label>
+                            <input type="radio" id="contact2" name="contact_method" value="linkedin" tabindex="4">
+                            <label for="contact2">LinkedIn</label>
+                            <input type="radio" id="contact3" name="contact_method" value="text" tabindex="5">
+                            <label for="contact3">Text Message</label>
+                        <br>
+                            <label for="comments">Leave your contact information here:</label>
+                            <textarea id="comments" name="comments" tabindex="6"></textarea>
+                        <br>
+                            <input type="submit" value="Send Form" tabindex="7">
+                        </form>
+                    </div>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0859629199426!2d-76.13342122328478!3d43.039622791898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3754c82b97b%3A0xa1a5eec56ddb8a56!2sWatson%20hall%2C%20405%20University%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1738173824675!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

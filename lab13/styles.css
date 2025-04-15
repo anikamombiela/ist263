@@ -1,0 +1,142 @@
+body {
+    font-family: Georgia, serif;
+}
+
+h1, h2 {
+    color: RosyBrown
+}
+
+.evenrow {
+    background-color:RosyBrown
+}
+
+h1 {
+    font-size: 3 em
+}
+
+h2 {
+    font-size: 2 em
+}
+
+body {
+    background-color:#fceee9
+}
+
+text {
+    color:#000000
+}
+
+link {
+    color:RosyBrown
+}
+
+h1, h2 {
+    color:RosyBrown
+}
+
+nav {
+    background-color: #f8d3c5; 
+    padding: 10rem; 
+    margin-bottom: 30rem;
+
+}
+
+nav a {
+    color: RosyBrown
+}
+@media only screen and (min-width: 768rem) {
+}
+nav span {
+    display: inline;
+}
+@media only screen and (max-width: 767rem) {
+    nav span {display: none;}
+    nav a {width: 100%; display: block;}
+}
+
+nav a:hover {
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    margin: 20rem;
+}
+
+.intro-text {
+    margin-bottom: 20rem;
+}
+
+.flexbox-2 {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 30rem;
+}
+
+.skill-row {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20rem; 
+    width: 100%; 
+    flex: 3;
+}
+
+.skill-col {
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.skill-col i {
+    display: block; 
+    width: 60rem; 
+    margin: 0 auto 10rem; 
+    font-size: 3em;
+}
+
+.skill-col p {
+    margin: 0;
+}
+
+aside {
+    padding: 20rem; 
+    background-color: pink; 
+    color: white; 
+    border-radius: 12rem; 
+    flex: 1; 
+    margin-left: 10rem; 
+    margin-right: 10rem;
+}
+
+aside h2 {
+    text-align: center; 
+    font-size: 2em; 
+    color: #fff; 
+    margin-bottom: 20rem;
+}
+
+aside ul li {
+    font-size: 1em; 
+    color: #fff; 
+    margin-bottom: 10rem;
+}
+
+.my-image-class {
+    max-width: 100%;
+}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
