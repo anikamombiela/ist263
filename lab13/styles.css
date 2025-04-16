@@ -3,31 +3,31 @@ body {
 }
 
 h1, h2 {
-    color: #783C46
+    color: #783C46;
 }
 
 .evenrow {
-    background-color:RosyBrown
+    background-color:RosyBrown;
 }
 
 h1 {
-    font-size: 3 em
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 2 em
+    font-size: 2em;
 }
 
 body {
-    background-color:#fceee9
+    background-color:#fceee9;
 }
 
 text {
-    color:#000000
+    color:#000000;
 }
 
 link {
-    color: #783C46 
+    color: #783C46;
 }
 
 nav {
@@ -38,7 +38,7 @@ nav {
 }
 
 nav a {
-    color: #783C46
+    color: #783C46;
 }
 @media only screen and (min-width: 768rem) {
 }
