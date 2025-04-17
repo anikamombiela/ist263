@@ -23,11 +23,7 @@ body {
     margin: 1.5rem;
 }
 
-text {
-    color:#000000;
-}
-
-.links {
+a {
     color: #783C46;
 }
 
