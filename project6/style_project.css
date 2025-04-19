@@ -1,0 +1,23 @@
+/* nav style */
+nav {
+    text-align: center;
+    background-color: #800020;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #fff;
+}
+nav a:hover {
+    background-color: #F8D7DA;
+}
+/* text style */
+.center-text {
+    text-align: center;
+}
+/* body style */
+body {
+    background-color: #FCEEE9; 
+    margin: 0; 
+    font-family: "Optima", sans-serif;
+}
