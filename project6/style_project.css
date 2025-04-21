@@ -21,3 +21,8 @@ body {
     margin: 0; 
     font-family: "Optima", sans-serif;
 }
+
+/* text style */
+h1, h2, h3 {
+    color: #800020;
+}
