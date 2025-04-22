@@ -25,4 +25,8 @@ body {
 /* text style */
 h1, h2, h3 {
     color: #800020;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
