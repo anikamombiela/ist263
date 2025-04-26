@@ -11,6 +11,53 @@
         <title>Make It Up</title>
         <style>
             /* media queries */
+            @media only screen and (min-width: 48rem) {
+                nav span { display: inline; }
+            }
+            @media only screen and (max-width: 47.9375rem) {
+                nav span { display: none; }
+                nav a { width: 100%; display: block; }
+                .image-style { max-width: 100% }
+            }
+
+            h1 {
+                padding: 1.25rem; 
+            }
+
+            p {
+                font-size: 1.125rem;
+                padding: 1.25rem;
+            }
+
+            img.full-width {
+                width: 100%; 
+                display: block;
+                border-radius: 0.9375rem;
+            }
+
+            .image-style {
+                width: 37.5rem;
+                height: auto; 
+                margin-left: auto; 
+                margin-right: auto; 
+                display: block;
+                border-radius: 0.9375rem; 
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1.25rem;
+            }
+
+            .text-left, .text-right {
+                flex: 1;
+                padding: 0.625rem; /* 10px */
+            }
+
+            /* media queries 
             @media only screen and (min-width: 768px) {
                 nav span {display: inline;}
             }
@@ -26,7 +73,7 @@
                 font-size: 18px;
                 padding: 20px;
             }
-            /* images style */
+            /* images style 
             img.full-width {
                 width: 100%; 
                 display: block;
@@ -40,7 +87,7 @@
                 display: block;
                 border-radius: 15px;
             }
-            /* using flexbox */
+            /* using flexbox 
             .container {
                 display: flex;
                 flex-wrap: wrap;
@@ -55,7 +102,7 @@
             .text-right {
                 flex: 1;
                 padding: 10px;
-            }
+            } */
         </style>
     </head>
     
@@ -107,5 +154,5 @@
             </p>
         </footer>
     </body>
-    <!-- add brand name, add logo in footing -->
+    <!-- add logo in footing -->
 </html>

@@ -2,6 +2,53 @@
 nav {
     text-align: center;
     background-color: #800020;
+    padding: 0.625rem;
+    margin-bottom: 1.875rem;
+}
+nav a {
+    color: #fff;
+}
+nav a:hover {
+    background-color: #F8D7DA;
+}
+
+/* text style */
+.center-text {
+    text-align: center;
+}
+
+/* body style */
+body {
+    background-color: #FCEEE9; 
+    margin: 0; 
+    font-family: "Optima", sans-serif;
+    font-size: 100%;
+}
+
+/* headings */
+h1, h2, h3 {
+    color: #800020;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.footer-style {
+    color: #800020;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+
+/* nav style
+nav {
+    text-align: center;
+    background-color: #800020;
     padding: 10px;
     margin-bottom: 30px;
 }
@@ -11,18 +58,18 @@ nav a {
 nav a:hover {
     background-color: #F8D7DA;
 }
-/* text style */
+/* text style
 .center-text {
     text-align: center;
 }
-/* body style */
+/* body style
 body {
     background-color: #FCEEE9; 
     margin: 0; 
     font-family: "Optima", sans-serif;
 }
 
-/* text style */
+/* text style 
 h1, h2, h3 {
     color: #800020;
     font-family: "Dancing Script", cursive;
@@ -40,4 +87,4 @@ h1, h3, h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
-}
+} */

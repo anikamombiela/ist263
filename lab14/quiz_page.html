@@ -10,7 +10,40 @@
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
         <title>Make It Up</title>
         <style>
-            /* media queries */
+            @media only screen and (min-width: 48rem) {
+                nav span { display: inline; }
+            }
+            @media only screen and (max-width: 47.9375rem) {
+                nav span { display: none; }
+                nav a { width: 100%; display: block; }
+                .same-size { max-width: 100%; }
+            }
+
+            li {
+                font-size: 1.125rem;
+            }
+
+            .same-size {
+                width: 31.25rem; 
+                height: 40.625rem; 
+                display: block;
+                border-radius: 0.9375rem;
+            }
+
+            .left-img {
+                align-self: flex-start;
+            }
+            .right-img {
+                align-self: flex-end;
+            }
+
+            .skin-type-section {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                padding: 1.25rem;
+            }
+            /* media queries
             @media only screen and (min-width: 768px) {
                 nav span {display: inline;}
             }
@@ -22,7 +55,7 @@
             li {
                 font-size: 18px;
             }
-            /* images style */
+            /* images style 
             .same-size {
                 width: 500px; 
                 height: 650px; 
@@ -35,13 +68,13 @@
             .right-img {
                 align-self: flex-end;
             }
-            /* making columns */
+            /* making columns 
             .skin-type-section {
                 display: flex;
                 justify-content: space-around;
                 flex-wrap: wrap;
                 padding: 20px;
-            }
+            } */
         </style>
     </head>
     
